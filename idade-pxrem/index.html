@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - calcular idade</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700|Playfair+Display:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+
+   
+    <!-- Cabeçalho -->
+    <header>
+
+        <h1>Formulario e conversor</h1>
+        <p>Data de nascimento</p>
+        <p>Pixel/Rem</p>
+        <a href="../index.html">Voltar a pagina inicial</a>
+
+    </header>
+
+    <main>
+       
+        <form class="idade">
+
+            <h2>Conversor de idade</h2>
+            
+            <div class="form-group col-md-4">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" class="form-control text-uppercase" placeholder="Digite seu nome">
+            </div>
+            
+            <div class="form-group col-md-2">
+                <label for="data">Data de Nascimento:</label>
+                <input type="date" name="data" id="data" class="form-control">
+            </div>
+            
+            <div class="form-group col-md-1">
+                <label for="idade">Idade:</label>
+                <input type="num" name="idade" id="idade" class="form-control" placeholder="Idade" disabled>
+            </div>
+      
+        </form>
+             
+        <form class="conversor">
+
+            <h2>Conversor Pixel / Rem</h2>
+            
+            <div class="form-group col-md-5">
+                <label for="inp-base-px">Base em Pixel:</label>
+                <input type="number" id="inp-base-px" value="16" disabled/>
+            </div>
+            
+            <div class="form-group col-md-6">
+                    <label for="inp-px">Pixel</label>
+                    <input type="number" id="inp-px" placeholder="Pixels" />
+                </div>
+            </div>
+                
+            <div class="form-group col-md-7">
+                <label for="inp-rem">Rem</label>
+                <input type="number" id="inp-rem" placeholder="Rem" />
+            </div>
+      
+        </form>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+        <script src="js/scripts_idade.js"></script>
+        <script src="js/scripts_conversor.js"></script>
+      
+</body>
+</html>

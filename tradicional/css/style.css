@@ -11,6 +11,11 @@
     text-align: center;
 }
 
+.fundo a{
+    color: white;
+    font-size: 16px;
+}
+
 .calculadora {
     position: absolute;
     background-color: black;
