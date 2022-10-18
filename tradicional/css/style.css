@@ -27,30 +27,43 @@
 }
 
 .botao {
-    width: 50px;
-    height: 50px;
-    font-size: 25px;
+    width: 50px;  /* 50 */
+    height: 50px;  /* 50 */
+    font-size: 25px;  /* 25 */
     cursor: pointer;
     background-color: darkred;
     border: none;
     color: black;
     margin: 3;
+    border-radius: 50%;
 }
 
 .botao:hover {
     background-color: white;
 }
 
-.igual {
-    height: 106px;
+.apagar {
+    width: 106px;
 }
 
 .zero {
     width: 106px;
 }
 
+.rem {
+    height: 106px;
+}
+
+.pixel {
+    height: 106px;
+}
+
+.base {
+    text-align: center;
+}
+
 #resultado {
-    width: 207px;
+    width: 95%;
     background-color: white;
     height: 30px;
     margin: 5px;
