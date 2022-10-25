@@ -8,17 +8,17 @@ function clean () {
 }
 
 function back () {
-    var resultado = document.getElementById('resultado').innerHTML;
-    document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length -1)
+    var resultadoX = document.getElementById('resultado').innerHTML;
+    document.getElementById('resultado').innerHTML = resultadoX.substring(0, resultadoX.length -1)
 }
 
 function calcular () {
-    var resultado = document.getElementById('resultado').innerHTML;
-    if (resultado)
+    var resultadoX = document.getElementById('resultado').innerHTML;
+    if (resultadoX)
       { 
-        document.getElementById('resultado').innerHTML = eval(resultado);
+        document.getElementById('resultado').innerHTML = eval(resultadoX);
       }
       else {
-        document.getElementById('resultado').innerHTML = "Vazio";
+        document.getElementById('resultado').innerHTML = "0";
       }
 }
